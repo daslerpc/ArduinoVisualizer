@@ -11,3 +11,5 @@ The visualizer contains the visualization code itself.  The visualizer will chec
 There are three buttons on the lower left that will allow you to switch between these graph modes.  Additionally, each possible channel is listed on the bottom.  Those that were found while scanning the serial port are highlighted and assigned a color to be graphed in.  You can turn off the display of these channels by clicking on the box.
 
 The abstract graph displays a star for every channel.  The inner yellow star shows the minimal value for the channel, the outer red star shows the maximum, and the middle blue star shows the value itself.
+
+BUG:  For some reason, the visualizer will fail the first time you run it after having connected an Arduino.  It's not reading the serial port for some reason.  Just run it again and it should be fine.
